@@ -1,14 +1,10 @@
 var gulp = require('gulp')
-gulp.task('two', ['one'], function() {
-	console.log(2)
-})
-gulp.task('one', function() {
-	console.log(1)
-})
+var uglify = require('gulp-uglify')
+var rename = require('gulp-rename')
 
-gulp.watch('glob.js', function(event) {
-	console.log(event.path + event.type)
+gulp.task('minijs', function() {
+	gulp.src('src/js/**/*.js')
+		.pipe(uglify())
+		.pipe(gulp.dest('build/js'))
 })
-
-gulp.task('default', ['one', 'two'])
 

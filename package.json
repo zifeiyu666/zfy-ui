@@ -2,5 +2,21 @@
   "devDependencies": {
     "glob": "^7.1.2",
     "gulp": "^3.9.1"
-  }
+  },
+  "name": "zfy-ui",
+  "description": "我的第一个ui框架",
+  "version": "1.0.0",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zifeiyu666/zfy-ui.git"
+  },
+  "author": "yxp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zifeiyu666/zfy-ui/issues"
+  },
+  "homepage": "https://github.com/zifeiyu666/zfy-ui#readme"
 }

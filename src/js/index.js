@@ -1,5 +1,2 @@
 console.log('index.js')
-function() {
-	asdfasdf
-	asdfasfd
-}
+function add(){}
